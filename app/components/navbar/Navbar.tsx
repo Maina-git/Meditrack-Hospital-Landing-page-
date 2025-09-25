@@ -50,13 +50,12 @@ const Navbar = () => {
       </div>
 
       {/* buttons */}
-      <div className="flex gap-5 justify-between items-center px-5">
-        <button className="bg-blue-500 px-5 py-2 text-white rounded-lg text-sm">
-          Sign In
-        </button>
+      <div>
+        <Link href="/auth">
         <button className="border-[2px] border-blue-500 px-5 py-2 text-sm rounded-lg text-blue-900">
           Sign Up
         </button>
+        </Link>
       </div>
     </div>
   );
