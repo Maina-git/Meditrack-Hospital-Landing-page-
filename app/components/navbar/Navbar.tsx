@@ -92,7 +92,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ${
+        className={`md:hidden overflow-hidden transition-all duration-300 absolute ${
           isOpen ? "max-h-[600px]" : "max-h-0"
         }`}
       >
