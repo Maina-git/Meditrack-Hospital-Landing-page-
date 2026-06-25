@@ -2,7 +2,7 @@
 import React from "react";
 
 interface Props {
-  Icon: any;
+  Icon:React.ComponentType<{ className?: string; size?: number }>;
   title: string;
   description: string;
 }
